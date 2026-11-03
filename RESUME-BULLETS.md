@@ -1,0 +1,1 @@
+['- Bangun `buat_video.py` (1607 B) untuk video 40 detik, 8 langkah.', '- Luluskan QC 1,7 detik pada lapis kode dan media, temuan 0.', '- Catat 1 berkas Python dan 11 berkas lain dalam rincian kode.']
