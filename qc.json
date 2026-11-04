@@ -26,13 +26,13 @@
    "jumlah_berkas": {
     "py": 1,
     "js": 0,
-    "json": 0,
+    "json": 1,
     "lua": 0,
-    "lain": 11
+    "lain": 15
    },
-   "jumlah_diperiksa": 12,
-   "detik": 1.7,
-   "diperiksa": "2026-11-03T14:04:54+07:00"
+   "jumlah_diperiksa": 17,
+   "detik": 0.69,
+   "diperiksa": "2026-11-04T21:27:49+07:00"
   },
   "visual": {
    "lapis": "visual",
@@ -42,7 +42,7 @@
    "vonis": "tidak berlaku",
    "temuan": [],
    "sebab": "tidak ada URL UI",
-   "diperiksa": "2026-11-03T14:04:54+07:00"
+   "diperiksa": "2026-11-04T21:27:49+07:00"
   },
   "pengguna": {
    "lapis": "pengguna",
@@ -52,7 +52,7 @@
    "vonis": "tidak berlaku",
    "temuan": [],
    "sebab": "tidak ada URL UI",
-   "diperiksa": "2026-11-03T14:04:54+07:00"
+   "diperiksa": "2026-11-04T21:27:49+07:00"
   },
   "media": {
    "lapis": "media",
@@ -60,12 +60,12 @@
    "sah": true,
    "vonis": "terima",
    "temuan": [],
-   "detik_video": 44.4,
+   "detik_video": 45.0,
    "ketajaman": {
     "ok": true,
-    "median": 655.7,
-    "median_rasio": 133.63,
-    "min": 632.1,
+    "median": 1086.9,
+    "median_rasio": 101.66,
+    "min": 1010.9,
     "frame_diukur": 8,
     "lebar_px": 640,
     "ambang": {
@@ -75,12 +75,19 @@
     "sebab": "",
     "gagal": []
    },
-   "ukuran": 237153,
+   "ukuran": 314363,
    "resolusi": "1280x720"
   }
  },
- "detik": 1.7,
- "diperiksa": "2026-11-03T14:04:54+07:00",
+ "override_deterministik": {
+  "diterapkan": false,
+  "hijau": true,
+  "dibatalkan": [],
+  "bertahan": [],
+  "catatan": ""
+ },
+ "detik": 0.69,
+ "diperiksa": "2026-11-04T21:27:49+07:00",
  "target": "C:\\Users\\user\\otonom-penuh\\workspace\\trust-test\\video-howto-40s",
  "url": null
 }

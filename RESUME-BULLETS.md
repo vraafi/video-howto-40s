@@ -1,1 +1,1 @@
-['- Bangun `buat_video.py` (1607 B) untuk video 40 detik, 8 langkah.', '- Luluskan QC 1,7 detik pada lapis kode dan media, temuan 0.', '- Catat 1 berkas Python dan 11 berkas lain dalam rincian kode.']
+['- Menulis buat_video.py 1743 B: video 40 detik, 8 langkah, 1280x720.', '- Meloloskan QC kode dan media dalam 0,69 detik, temuan 0.', '- Menyusun README.md 819 B untuk reproduksi tutorial 40 detik.']

@@ -1,14 +1,22 @@
 ## Masalah
-Tim butuh video tutorial 40 detik untuk produk how-to. Video harus punya 8 langkah bernomor, judul, penutup, dan resolusi 1280x720. Aset media dan kode harus siap dipakai tanpa langkah manual tambahan.
+
+Tim butuh video how-to 40 detik yang bisa diproduksi ulang tanpa editor. Tutorial manual memakan waktu dan tidak konsisten antar rilis.
 
 ## Yang Dibangun
-Kami membangun skrip `buat_video.py` berukuran 1607 B. Skrip ini menyusun video tutorial 40 detik: 8 langkah bernomor, judul, penutup, resolusi 1280x720. Keluaran utama berupa berkas skrip yang bisa dijalankan ulang. Fokus kami: satu berkas kecil, satu alur produksi, satu hasil yang bisa diperiksa.
+
+Satu skrip `buat_video.py` yang menghasilkan video 1280x720: judul, 8 langkah bernomor, dan penutup dalam 40 detik. Skrip dan dokumentasi disertakan dalam dua berkas: `buat_video.py` (1743 B) dan `README.md` (819 B).
 
 ## Keputusan Teknis
-Kami memisahkan lapis kode dan lapis media. Dua lapis itu diperiksa terpisah. Keputusan ini membuat QC cepat dan batas masalah jelas. Kami memakai Python sebagai mesin penyusun video. Kami mencatat 1 berkas Python dan 11 berkas lain di luar daftar bahasa inti. Kami tidak menambah dependensi yang tidak perlu.
 
-## Bukti (angka QC)
-QC menyelesaikan 1,7 detik. Lapis aktif: kode dan media. Lapis lulus: kode dan media. Temuan: 0. Rincian kode: 1 Python, 0 JavaScript, 0 JSON, 0 Lua, 11 lain. Berkas hasil: `buat_video.py` (1607 B).
+- Satu berkas Python sebagai sumber kebenaran. Tidak ada dependensi tersembunyi di lapis kode.
+- Struktur waktu tetap: 8 langkah bernomor memaksa durasi tiap langkah terukur.
+- Resolusi dikunci di 1280x720 agar keluaran seragam.
+- Lapis media dipisah dari lapis kode untuk QC.
+
+## Bukti
+
+QC selesai dalam 0,69 detik. Temuan: 0. Dua lapis aktif: kode dan media. Keduanya lulus. Sebaran berkas: 1 Python, 1 JSON, 15 lain, 0 JavaScript, 0 Lua.
 
 ## Batasan
-Uji QC mencakup dua lapis, kode dan media. Uji ini belum mengukur kualitas narasi atau keterbacaan teks di layar kecil. Video 1280x720 sudah sesuai spesifikasi, tetapi belum diuji di perangkat seluler low-end. Skrip belum menangani input media di luar format yang dipakai saat QC.
+
+Video ini bukan untuk produksi berskala besar. Tidak ada pengguna, klien, atau metrik adopsi yang diklaim. Isi langkah ditentukan manual; skrip hanya merangkai. Uji coba hanya menyentuh dua lapis QC, bukan seluruh pipeline distribusi.

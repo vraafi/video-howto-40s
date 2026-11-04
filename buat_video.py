@@ -1,71 +1,64 @@
 """Naskah & parameter video How-to 40 detik — dibangun trust_test."""
 NASKAH = {
- "judul": "How-to 40 detik: Panduan Cepat 8 Langkah",
+ "judul": "How-to 40 detik",
  "adegan": [
   {
-   "judul": "Pembuka",
+   "judul": "Langkah 1: Persiapkan Alat",
    "baris": [
-    "Selamat datang di panduan how-to 40 detik.",
-    "Ikuti 8 langkah singkat berikut sampai selesai."
+    "Siapkan kamera atau ponsel dengan resolusi 1280x720.",
+    "Pastikan pencahayaan cukup dan latar belakang rapi."
    ]
   },
   {
-   "judul": "Langkah 1",
+   "judul": "Langkah 2: Tentukan Tujuan",
    "baris": [
-    "Langkah 1: Siapkan alat dan bahan yang dibutuhkan.",
-    "Pastikan semuanya lengkap sebelum mulai."
+    "Tulis satu tujuan utama video dalam satu kalimat singkat.",
+    "Fokus pada satu masalah yang ingin diselesaikan."
    ]
   },
   {
-   "judul": "Langkah 2",
+   "judul": "Langkah 3: Susun 8 Langkah",
    "baris": [
-    "Langkah 2: Baca instruksi dengan teliti.",
-    "Pahami urutan kerja agar tidak keliru."
+    "Buat daftar delapan langkah bernomor secara berurutan.",
+    "Jaga tiap langkah singkat agar mudah diikuti penonton."
    ]
   },
   {
-   "judul": "Langkah 3",
+   "judul": "Langkah 4: Tulis Naskah",
    "baris": [
-    "Langkah 3: Atur posisi kerja yang nyaman.",
-    "Pastikan pencahayaan cukup dan area bersih."
+    "Tulis satu baris naskah per langkah, maksimal 90 karakter.",
+    "Gunakan bahasa Indonesia yang jelas dan tanpa emoji."
    ]
   },
   {
-   "judul": "Langkah 4",
+   "judul": "Langkah 5: Rekam per Langkah",
    "baris": [
-    "Langkah 4: Mulai proses sesuai panduan.",
-    "Kerjakan perlahan dan fokus pada detail."
+    "Rekam setiap langkah sebagai klip terpisah berdurasi pendek.",
+    "Ulangi rekaman jika ada kesalahan agar hasil rapi."
    ]
   },
   {
-   "judul": "Langkah 5",
+   "judul": "Langkah 6: Tambahkan Judul",
    "baris": [
-    "Langkah 5: Periksa hasil di tengah proses.",
-    "Koreksi kesalahan kecil sebelum berlanjut."
+    "Beri judul singkat di awal video: How-to 40 detik.",
+    "Tambahkan nomor langkah agar penonton mudah mengikuti."
    ]
   },
   {
-   "judul": "Langkah 6",
+   "judul": "Langkah 7: Sunting Video",
    "baris": [
-    "Langkah 6: Rapikan bagian yang kurang pas.",
-    "Pastikan semua komponen terpasang benar."
+    "Gabungkan klip sesuai urutan delapan langkah tadi.",
+    "Atur resolusi akhir 1280x720 dan durasi total 40 detik."
    ]
   },
   {
-   "judul": "Langkah 7",
+   "judul": "Langkah 8: Ekspor dan Penutup",
    "baris": [
-    "Langkah 7: Uji coba hasil akhir.",
-    "Pastikan semuanya berfungsi sesuai harapan."
-   ]
-  },
-  {
-   "judul": "Penutup",
-   "baris": [
-    "Selesai! Simpan video ini untuk referensi.",
-    "Terima kasih sudah menonton panduan singkat ini."
+    "Ekspor video dalam format MP4 resolusi 1280x720.",
+    "Tutup dengan ajakan singkat untuk mencoba langkah ini."
    ]
   }
  ]
 }
 DURASI = 40
-ADEgan = 9
+ADEgan = 8
