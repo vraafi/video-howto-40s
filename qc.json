@@ -1,8 +1,8 @@
 {
  "tri_layer": true,
- "lulus": true,
+ "lulus": false,
  "sah": true,
- "vonis": "terima",
+ "vonis": "tolak",
  "bounce_ke": null,
  "ringkas": "semua lapis lulus",
  "lapis": {
@@ -31,8 +31,8 @@
     "lain": 15
    },
    "jumlah_diperiksa": 17,
-   "detik": 0.69,
-   "diperiksa": "2026-11-04T21:27:49+07:00"
+   "detik": 1.53,
+   "diperiksa": "2026-11-06T22:33:02+07:00"
   },
   "visual": {
    "lapis": "visual",
@@ -42,7 +42,7 @@
    "vonis": "tidak berlaku",
    "temuan": [],
    "sebab": "tidak ada URL UI",
-   "diperiksa": "2026-11-04T21:27:49+07:00"
+   "diperiksa": "2026-11-06T22:33:02+07:00"
   },
   "pengguna": {
    "lapis": "pengguna",
@@ -52,20 +52,22 @@
    "vonis": "tidak berlaku",
    "temuan": [],
    "sebab": "tidak ada URL UI",
-   "diperiksa": "2026-11-04T21:27:49+07:00"
+   "diperiksa": "2026-11-06T22:33:02+07:00"
   },
   "media": {
    "lapis": "media",
-   "lulus": true,
+   "lulus": false,
    "sah": true,
-   "vonis": "terima",
-   "temuan": [],
-   "detik_video": 45.0,
+   "vonis": "tolak",
+   "temuan": [
+    "durasi 80.0s menyimpang dari target 40s"
+   ],
+   "detik_video": 80.0,
    "ketajaman": {
     "ok": true,
-    "median": 1086.9,
-    "median_rasio": 101.66,
-    "min": 1010.9,
+    "median": 686.7,
+    "median_rasio": 109.57,
+    "min": 684.9,
     "frame_diukur": 8,
     "lebar_px": 640,
     "ambang": {
@@ -75,7 +77,7 @@
     "sebab": "",
     "gagal": []
    },
-   "ukuran": 314363,
+   "ukuran": 324442,
    "resolusi": "1280x720"
   }
  },
@@ -86,8 +88,8 @@
   "bertahan": [],
   "catatan": ""
  },
- "detik": 0.69,
- "diperiksa": "2026-11-04T21:27:49+07:00",
+ "detik": 1.53,
+ "diperiksa": "2026-11-06T22:33:02+07:00",
  "target": "C:\\Users\\user\\otonom-penuh\\workspace\\trust-test\\video-howto-40s",
  "url": null
 }
