@@ -31,8 +31,8 @@
     "lain": 15
    },
    "jumlah_diperiksa": 17,
-   "detik": 1.53,
-   "diperiksa": "2026-11-06T22:33:02+07:00"
+   "detik": 0.64,
+   "diperiksa": "2026-11-07T22:23:53+07:00"
   },
   "visual": {
    "lapis": "visual",
@@ -42,7 +42,7 @@
    "vonis": "tidak berlaku",
    "temuan": [],
    "sebab": "tidak ada URL UI",
-   "diperiksa": "2026-11-06T22:33:02+07:00"
+   "diperiksa": "2026-11-07T22:23:53+07:00"
   },
   "pengguna": {
    "lapis": "pengguna",
@@ -52,7 +52,7 @@
    "vonis": "tidak berlaku",
    "temuan": [],
    "sebab": "tidak ada URL UI",
-   "diperiksa": "2026-11-06T22:33:02+07:00"
+   "diperiksa": "2026-11-07T22:23:53+07:00"
   },
   "media": {
    "lapis": "media",
@@ -88,8 +88,8 @@
   "bertahan": [],
   "catatan": ""
  },
- "detik": 1.53,
- "diperiksa": "2026-11-06T22:33:02+07:00",
+ "detik": 0.65,
+ "diperiksa": "2026-11-07T22:23:53+07:00",
  "target": "C:\\Users\\user\\otonom-penuh\\workspace\\trust-test\\video-howto-40s",
  "url": null
 }
