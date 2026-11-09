@@ -1,1 +1,2 @@
-['- Menulis buat_video.py 1743 B: video 40 detik, 8 langkah, 1280x720.', '- Meloloskan QC kode dan media dalam 0,69 detik, temuan 0.', '- Menyusun README.md 819 B untuk reproduksi tutorial 40 detik.']
+- Membangun How-to 40 detik (video) dan meluluskan lapis QC kode, media.
+- Menutup 0 temuan QC dalam 0.66 detik.
